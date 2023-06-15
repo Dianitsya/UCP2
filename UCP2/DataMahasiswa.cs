@@ -38,7 +38,9 @@ namespace UCP2
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            DataBinding nextForm = new DataBinding();
+            nextForm.Show();
+            this.Hide();
         }
     }
 }
