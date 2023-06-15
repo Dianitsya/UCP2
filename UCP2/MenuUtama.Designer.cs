@@ -76,19 +76,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(477, 58);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(471, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 36);
+            this.label1.Size = new System.Drawing.Size(233, 40);
             this.label1.TabIndex = 2;
             this.label1.Text = "Menu Utama";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = global::UCP2.Properties.Resources.up_and_down;
-            this.button2.Location = new System.Drawing.Point(697, 129);
+            this.button2.Location = new System.Drawing.Point(605, 129);
             this.button2.Name = "button2";
+            this.button2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button2.Size = new System.Drawing.Size(412, 384);
             this.button2.TabIndex = 5;
             this.button2.UseVisualStyleBackColor = true;
@@ -97,7 +100,7 @@
             // button1
             // 
             this.button1.Image = global::UCP2.Properties.Resources.data_spreadsheet;
-            this.button1.Location = new System.Drawing.Point(170, 129);
+            this.button1.Location = new System.Drawing.Point(58, 129);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(462, 384);
             this.button1.TabIndex = 4;
@@ -109,7 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1221, 581);
+            this.ClientSize = new System.Drawing.Size(1085, 582);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

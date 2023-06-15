@@ -26,6 +26,8 @@ namespace UCP2
 
         private void DataBinding_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'prodiTIDataSet10.Nilai' table. You can move, or remove it, as needed.
+            this.nilaiTableAdapter.Fill(this.prodiTIDataSet10.Nilai);
             // TODO: This line of code loads data into the 'prodiTIDataSet9.Mahasiswa' table. You can move, or remove it, as needed.
             this.mahasiswaTableAdapter2.Fill(this.prodiTIDataSet9.Mahasiswa);
             // TODO: This line of code loads data into the 'prodiTIDataSet6.Mahasiswa' table. You can move, or remove it, as needed.

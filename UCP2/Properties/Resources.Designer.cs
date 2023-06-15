@@ -83,6 +83,16 @@ namespace UCP2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tombol_back {
+            get {
+                object obj = ResourceManager.GetObject("tombol back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap up_and_down {
             get {
                 object obj = ResourceManager.GetObject("up-and-down", resourceCulture);
