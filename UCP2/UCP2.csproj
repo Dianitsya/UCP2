@@ -109,6 +109,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProdiTIDataSet8.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ProdiTIDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProdiTIDataSet9.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DataBinding.resx">
@@ -228,6 +233,17 @@
     </None>
     <None Include="ProdiTIDataSet8.xss">
       <DependentUpon>ProdiTIDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ProdiTIDataSet9.xsc">
+      <DependentUpon>ProdiTIDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ProdiTIDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProdiTIDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProdiTIDataSet9.xss">
+      <DependentUpon>ProdiTIDataSet9.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
